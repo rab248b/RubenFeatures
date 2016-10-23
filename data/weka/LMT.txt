@@ -1,0 +1,457 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+Relation:     test
+Instances:    520
+Attributes:   14
+              Shape
+              Feature1
+              Feature2
+              Feature3
+              Feature4
+              Feature5
+              Feature6
+              Feature7
+              Feature8
+              Feature9
+              Feature10
+              Feature11
+              Feature12
+              Feature13
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:41/41 (520)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+9.34 + 
+[Feature1] * -2.92 +
+[Feature2] * -2.56 +
+[Feature3] * -0.02 +
+[Feature4] * -24.86 +
+[Feature5] * -0.02 +
+[Feature7] * 8.02 +
+[Feature8] * 0    +
+[Feature9] * 1.25 +
+[Feature11] * -0.4 +
+[Feature12] * 0.28 +
+[Feature13] * 0   
+
+Class 1 :
+-7.05 + 
+[Feature1] * 1.73 +
+[Feature4] * 0.42 +
+[Feature5] * 0.05 +
+[Feature6] * -4.23 +
+[Feature7] * -1.06 +
+[Feature8] * 0.01 +
+[Feature9] * -0.45 +
+[Feature11] * -0.09 +
+[Feature12] * -0.08 +
+[Feature13] * 0   
+
+Class 2 :
+-8.19 + 
+[Feature1] * -2.13 +
+[Feature2] * -0.92 +
+[Feature3] * 0.07 +
+[Feature4] * -4.93 +
+[Feature7] * 21.68 +
+[Feature8] * -0.05 +
+[Feature9] * 0.81 +
+[Feature10] * 0.14 +
+[Feature11] * -0.59 +
+[Feature12] * -2.05 +
+[Feature13] * -0
+
+Class 3 :
+-33.17 + 
+[Feature1] * -0.93 +
+[Feature2] * 0.69 +
+[Feature3] * -0.04 +
+[Feature4] * 25.21 +
+[Feature5] * -0.01 +
+[Feature7] * 2.04 +
+[Feature9] * 1.57 +
+[Feature10] * 0.14 +
+[Feature11] * -0.19 +
+[Feature13] * 0   
+
+Class 4 :
+-3.9 + 
+[Feature1] * 6.12 +
+[Feature2] * -0.45 +
+[Feature3] * -0.02 +
+[Feature4] * -2.01 +
+[Feature5] * 0.04 +
+[Feature6] * 1.98 +
+[Feature7] * 1.36 +
+[Feature8] * -0.01 +
+[Feature9] * 1.77 +
+[Feature10] * 0.3  +
+[Feature12] * -1.17 +
+[Feature13] * -0.01
+
+Class 5 :
+-15.14 + 
+[Feature1] * -0.98 +
+[Feature2] * -2.43 +
+[Feature3] * 0.06 +
+[Feature4] * 9.88 +
+[Feature5] * -0.04 +
+[Feature6] * -6.28 +
+[Feature7] * -2.01 +
+[Feature8] * -0 +
+[Feature9] * -0.29 +
+[Feature10] * 0.08 +
+[Feature12] * 0.33
+
+Class 6 :
+-30.87 + 
+[Feature1] * -3.07 +
+[Feature2] * -1.1 +
+[Feature4] * 15.98 +
+[Feature5] * -0.04 +
+[Feature6] * -1.82 +
+[Feature7] * 1.56 +
+[Feature8] * 0.02 +
+[Feature9] * -0.12 +
+[Feature10] * 0.67 +
+[Feature12] * 0.37
+
+Class 7 :
+-23.18 + 
+[Feature1] * 2.8  +
+[Feature2] * -0.48 +
+[Feature4] * 8.87 +
+[Feature5] * 0.11 +
+[Feature6] * 6.89 +
+[Feature7] * 1.09 +
+[Feature9] * -0.54 +
+[Feature10] * -0.04 +
+[Feature12] * -0.5
+
+Class 8 :
+11.68 + 
+[Feature1] * -2.07 +
+[Feature3] * 0.02 +
+[Feature4] * 6.48 +
+[Feature6] * 7.13 +
+[Feature7] * 4.64 +
+[Feature8] * -0.04 +
+[Feature9] * 0.83 +
+[Feature10] * -0.75 +
+[Feature12] * -0.46 +
+[Feature13] * -0.04
+
+Class 9 :
+-7.74 + 
+[Feature2] * 0.48 +
+[Feature3] * 0.07 +
+[Feature4] * 7.9  +
+[Feature5] * -0.02 +
+[Feature6] * -3.23 +
+[Feature7] * -2.39 +
+[Feature8] * -0 +
+[Feature9] * -0.47 +
+[Feature10] * -0.08 +
+[Feature11] * 0.16 +
+[Feature12] * -0.37 +
+[Feature13] * -0.01
+
+Class 10 :
+-32 + 
+[Feature2] * 0.55 +
+[Feature3] * -0.07 +
+[Feature4] * 14.03 +
+[Feature5] * 0.09 +
+[Feature6] * 1.03 +
+[Feature7] * 2.5  +
+[Feature8] * 0.01 +
+[Feature9] * -0.07 +
+[Feature12] * 0.23 +
+[Feature13] * 0.01
+
+Class 11 :
+-10.07 + 
+[Feature1] * 3.39 +
+[Feature2] * -2.8 +
+[Feature3] * 0.01 +
+[Feature4] * 12.08 +
+[Feature5] * -0.05 +
+[Feature6] * 1.75 +
+[Feature7] * -0.96 +
+[Feature8] * -0.03 +
+[Feature9] * 0.3  +
+[Feature11] * 0.12 +
+[Feature12] * 0.35
+
+Class 12 :
+19.69 + 
+[Feature2] * 1.07 +
+[Feature3] * -0.01 +
+[Feature4] * -33.97 +
+[Feature5] * 0.03 +
+[Feature6] * 7.12 +
+[Feature9] * -2.32 +
+[Feature10] * -0.38 +
+[Feature11] * -0.34 +
+[Feature13] * -0
+
+Class 13 :
+7.05 + 
+[Feature1] * -0.89 +
+[Feature2] * -0.58 +
+[Feature3] * -0.04 +
+[Feature4] * -6.09 +
+[Feature5] * 0.03 +
+[Feature6] * 5.9  +
+[Feature8] * 0.01 +
+[Feature9] * -0.82 +
+[Feature12] * -0.08 +
+[Feature13] * -0.01
+
+Class 14 :
+21.29 + 
+[Feature1] * -2.29 +
+[Feature2] * 0.97 +
+[Feature3] * 0.01 +
+[Feature4] * -18.18 +
+[Feature5] * -0.13 +
+[Feature6] * -3.53 +
+[Feature7] * -3.3 +
+[Feature8] * 0.01 +
+[Feature9] * 1.32 +
+[Feature11] * -0.58 +
+[Feature13] * -0.01
+
+Class 15 :
+-30.12 + 
+[Feature1] * 1.63 +
+[Feature2] * -0.95 +
+[Feature3] * 0.01 +
+[Feature4] * 18.09 +
+[Feature6] * -1.2 +
+[Feature7] * -12.55 +
+[Feature8] * 0    +
+[Feature9] * -1.31 +
+[Feature10] * 0.18 +
+[Feature11] * 0.24
+
+Class 16 :
+-31.8 + 
+[Feature1] * -3.91 +
+[Feature2] * -1.16 +
+[Feature3] * 0.02 +
+[Feature4] * 10.24 +
+[Feature5] * 0.01 +
+[Feature6] * -1.95 +
+[Feature7] * 4.63 +
+[Feature9] * 0.83 +
+[Feature11] * 0.08 +
+[Feature12] * 0.25 +
+[Feature13] * 0.01
+
+Class 17 :
+-8.71 + 
+[Feature2] * 3.36 +
+[Feature4] * 14.63 +
+[Feature5] * -0.12 +
+[Feature6] * 3.94 +
+[Feature7] * -7.5 +
+[Feature8] * -0.01 +
+[Feature9] * -1.48 +
+[Feature10] * -0.13 +
+[Feature11] * -0.09 +
+[Feature13] * -0
+
+Class 18 :
+-16.55 + 
+[Feature1] * -3.15 +
+[Feature2] * -6.38 +
+[Feature3] * -0.07 +
+[Feature4] * 3.16 +
+[Feature5] * 0.2  +
+[Feature6] * -14.87 +
+[Feature8] * -0.01 +
+[Feature9] * -0.38 +
+[Feature13] * -0
+
+Class 19 :
+-23.94 + 
+[Feature2] * 2.99 +
+[Feature3] * 0.08 +
+[Feature4] * 6.04 +
+[Feature5] * -0.06 +
+[Feature6] * -12.74 +
+[Feature7] * 5.77 +
+[Feature9] * 0.37 +
+[Feature10] * -0.26 +
+[Feature13] * 0   
+
+Class 20 :
+14.2 + 
+[Feature1] * 1.75 +
+[Feature2] * 3.36 +
+[Feature3] * -0.02 +
+[Feature4] * -7.8 +
+[Feature6] * -1.11 +
+[Feature7] * -5.88 +
+[Feature8] * -0.01 +
+[Feature9] * 0.32 +
+[Feature11] * -0.28 +
+[Feature12] * -1.26
+
+Class 21 :
+13.46 + 
+[Feature2] * 2.2  +
+[Feature3] * 0.12 +
+[Feature4] * -11.51 +
+[Feature6] * 0.75 +
+[Feature7] * -4.27 +
+[Feature8] * -0.08 +
+[Feature9] * -0.11 +
+[Feature10] * -0.06 +
+[Feature11] * 0.05 +
+[Feature12] * 0.45
+
+Class 22 :
+4.99 + 
+[Feature1] * 0.42 +
+[Feature2] * 1.41 +
+[Feature3] * -0.01 +
+[Feature4] * -17.33 +
+[Feature5] * 0.01 +
+[Feature6] * 10.3 +
+[Feature7] * -2.05 +
+[Feature8] * -0.02 +
+[Feature9] * 1.06 +
+[Feature11] * 0.13 +
+[Feature12] * -0.72 +
+[Feature13] * 0   
+
+Class 23 :
+10.18 + 
+[Feature1] * 3.7  +
+[Feature3] * -0.02 +
+[Feature4] * -30.56 +
+[Feature5] * -0.01 +
+[Feature6] * -7 +
+[Feature7] * 15.49 +
+[Feature9] * 0.39 +
+[Feature11] * 0.16 +
+[Feature12] * 0.56 +
+[Feature13] * 0.01
+
+Class 24 :
+-33.05 + 
+[Feature1] * 1.88 +
+[Feature2] * 6.94 +
+[Feature4] * 13.76 +
+[Feature6] * 8.69 +
+[Feature7] * 1.24 +
+[Feature8] * 0.01 +
+[Feature9] * -0.1 +
+[Feature10] * 0.33 +
+[Feature11] * -0.1 +
+[Feature12] * 0.07 +
+[Feature13] * 0   
+
+Class 25 :
+7.91 + 
+[Feature1] * 3.1  +
+[Feature2] * -2.69 +
+[Feature3] * -0.03 +
+[Feature4] * -12.65 +
+[Feature5] * 0.08 +
+[Feature7] * 6.56 +
+[Feature8] * -0.02 +
+[Feature9] * 0.07 +
+[Feature10] * -0.66 +
+[Feature11] * 0.36 +
+[Feature12] * 0.29 +
+[Feature13] * 0   
+
+
+Time taken to build model: 3.41 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         440               84.6154 %
+Incorrectly Classified Instances        80               15.3846 %
+Kappa statistic                          0.84  
+Mean absolute error                      0.0166
+Root mean squared error                  0.0964
+Relative absolute error                 22.471  %
+Root relative squared error             50.1033 %
+Total Number of Instances              520     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.900    0.004    0.900      0.900    0.900      0.896    0.998     0.966     a
+                 0.700    0.008    0.778      0.700    0.737      0.728    0.921     0.784     b
+                 0.850    0.006    0.850      0.850    0.850      0.844    0.996     0.915     c
+                 0.900    0.010    0.783      0.900    0.837      0.832    0.987     0.787     d
+                 0.800    0.004    0.889      0.800    0.842      0.837    0.993     0.914     e
+                 0.750    0.014    0.682      0.750    0.714      0.703    0.991     0.791     f
+                 0.650    0.008    0.765      0.650    0.703      0.694    0.996     0.850     g
+                 0.650    0.014    0.650      0.650    0.650      0.636    0.986     0.760     h
+                 0.900    0.000    1.000      0.900    0.947      0.947    0.971     0.953     i
+                 0.900    0.006    0.857      0.900    0.878      0.873    0.976     0.785     j
+                 0.850    0.002    0.944      0.850    0.895      0.892    0.988     0.918     k
+                 0.800    0.012    0.727      0.800    0.762      0.753    0.937     0.777     l
+                 0.850    0.004    0.895      0.850    0.872      0.867    0.989     0.891     m
+                 0.750    0.014    0.682      0.750    0.714      0.703    0.931     0.697     n
+                 0.900    0.002    0.947      0.900    0.923      0.920    0.999     0.974     o
+                 0.950    0.002    0.950      0.950    0.950      0.948    0.991     0.959     p
+                 0.800    0.012    0.727      0.800    0.762      0.753    0.986     0.800     q
+                 0.900    0.004    0.900      0.900    0.900      0.896    0.985     0.899     r
+                 0.950    0.000    1.000      0.950    0.974      0.974    1.000     1.000     s
+                 0.950    0.002    0.950      0.950    0.950      0.948    0.978     0.825     t
+                 0.850    0.006    0.850      0.850    0.850      0.844    0.966     0.878     u
+                 0.850    0.004    0.895      0.850    0.872      0.867    0.958     0.915     v
+                 0.950    0.008    0.826      0.950    0.884      0.881    0.982     0.902     w
+                 0.900    0.000    1.000      0.900    0.947      0.947    0.958     0.952     x
+                 0.850    0.006    0.850      0.850    0.850      0.844    0.998     0.945     y
+                 0.900    0.008    0.818      0.900    0.857      0.852    0.963     0.925     z
+Weighted Avg.    0.846    0.006    0.851      0.846    0.847      0.842    0.978     0.875     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z   <-- classified as
+ 18  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0  0  0 |  a = a
+  0 14  0  0  0  0  0  1  0  0  1  1  0  0  0  0  2  1  0  0  0  0  0  0  0  0 |  b = b
+  1  0 17  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = c
+  0  0  0 18  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0 |  d = d
+  0  0  1  1 16  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  1 |  e = e
+  0  0  0  0  0 15  1  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = f
+  0  0  0  0  0  4 13  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  1  0 |  g = g
+  0  1  0  0  0  0  1 13  0  1  0  0  0  2  0  0  0  0  0  0  0  0  0  0  1  1 |  h = h
+  0  0  2  0  0  0  0  0 18  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = i
+  0  0  0  0  0  0  0  0  0 18  0  0  0  1  0  0  0  0  0  0  0  0  0  0  1  0 |  j = j
+  0  1  0  0  0  0  1  1  0  0 17  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = k
+  0  0  0  0  1  2  0  0  0  0  0 16  0  0  0  0  0  0  0  0  0  0  1  0  0  0 |  l = l
+  0  0  0  0  0  0  0  1  0  0  0  0 17  2  0  0  0  0  0  0  0  0  0  0  0  0 |  m = m
+  0  0  0  0  0  0  0  1  0  0  0  0  2 15  0  0  0  1  0  0  0  0  0  0  0  1 |  n = n
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0 18  0  0  0  0  0  0  0  1  0  0  0 |  o = o
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0 19  0  0  0  0  0  0  0  0  0  0 |  p = p
+  0  1  0  2  0  0  1  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0  0  0 |  q = q
+  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0 18  0  0  0  1  0  0  0  0 |  r = r
+  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0 19  0  0  0  0  0  0  0 |  s = s
+  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 19  0  0  0  0  0  0 |  t = t
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 17  1  0  0  0  1 |  u = u
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  2 17  0  0  0  0 |  v = v
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0 19  0  0  0 |  w = w
+  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 18  0  0 |  x = x
+  0  0  0  0  0  0  0  2  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0 17  0 |  y = y
+  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 18 |  z = z
+
